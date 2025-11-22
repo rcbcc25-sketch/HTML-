@@ -18,9 +18,9 @@ user_collection = db["sujalbot"]
 
 
 OWNER = 8050673236 
-API_ID = os.getenv("API_ID", "21966020")
-API_HASH = os.getenv("API_HASH", "cb0e5ee22c346db5ef573a895374e2bd")
-TOKEN = "8024174422:AAHhja7Grwmr-xpjzqTBnmIXbNRlyWn1fj8"
+API_ID = os.getenv("API_ID", "29731917")
+API_HASH = os.getenv("API_HASH", "d0b73a75f2d12cae5b04c21044ff0148")
+TOKEN = "8287509542:AAHZS8_hWHEE5BRwjqBa_R23vg9YAd-L4dI"
 
 bot = telebot.TeleBot(TOKEN)
 bot.remove_webhook()
@@ -192,7 +192,7 @@ a {{ color:inherit; text-decoration:none; }}
 <button class="tab-button" onclick="showTab('other')">Other</button>
 </div>
 {html_blocks}
-<div class="footer">ᗪEᐯEᒪOᑭEᗪ ᗷY <a href="https://t.me/dadajiproh">𓍯𝙎𝙪𝙟𝙖𝙡⚝</a></div>
+<div class="footer">ᗪEᐯEᒪOᑭEᗪ ᗷY <a href="tg://openmessage?user_id=8136984784">𓍯✮⃝mr𝕮𝖍o𝖚𝖍𝖆𝖓✮⃝🚩⚝</a></div>
 <script>
 let hls;
 
@@ -261,8 +261,8 @@ document.addEventListener("DOMContentLoaded",()=>{{ showTab('video'); }});
 def start_keyboard():
     keyboard = InlineKeyboardMarkup()
     keyboard.row(
-        InlineKeyboardButton("ＣＨＡＮＮＥＬ", url="https://t.me/+nXeY1vDamJ5kZGVl"),
-        InlineKeyboardButton("ＯＷＮＥＲ", url="https://t.me/+nXeY1vDamJ5kZGVl")
+        InlineKeyboardButton("ＣＨＡＮＮＥＬ", url="https://t.me/chaiabah"),
+        InlineKeyboardButton("𓍯✮⃝mr𝕮𝖍o𝖚𝖍𝖆𝖓✮⃝🚩⚝", url="tg://openmessage?user_id=8136984784")
     )
     return keyboard
 
@@ -303,15 +303,15 @@ def start_command(message):
 
     # 📷 Random photo send
     random_image_url = random.choice([
-        "https://envs.sh/Qt9.jpg/IMG20250621443.jpg",
-        "https://envs.sh/Fio.jpg/IMG2025070370.jpg",
-        "https://envs.sh/Fir.jpg/IMG20250703829.jpg",
+        "https://sensitive-orange-2ndgmnoedd.edgeone.app/IMG_20250727_093946_936.jpg",
+        "https://sensitive-orange-2ndgmnoedd.edgeone.app/IMG_20250727_093946_936.jpg",
+        "https://sensitive-orange-2ndgmnoedd.edgeone.app/IMG_20250727_093946_936.jpg",
     ])
     caption = (
         f"**ʜᴇʟʟᴏ {mention}**\n\n"
         f"✿ I am a **Txt To HTML Converter Bot**\n"
         "✿ Use **/html** to convert a .txt file to .html\n\n"
-        "𝐂𝐑𝐄𝐀𝐓𝐎𝐑:- [𓍯ch𝙪h𝙖n⚝](https://t.me/dadajiproh)"
+        "𝐂𝐑𝐄𝐀𝐓𝐎𝐑:- [⌯ Mr Chouhan ×͜×|](tg://openmessage?user_id=8136984784)"
     )
     safe_send(
         bot.send_photo,
@@ -405,7 +405,8 @@ def handle_txt_file(message: Message):
             f"┏━ ⚝ ᴠᴇᴅᴇᴏꜱ: {video_count}\n"
             f"┣━ ❂ ᴘᴅꜰ/ɴᴏᴛᴇꜱ: {pdf_count}\n"
             f"┣━ ⚝ ᴏᴛʜᴇʀ: {other_count}\n"
-            f"┗━ ❂ ᴛᴏᴛᴀʟ: {video_count + pdf_count + other_count}\n"
+            f"┣━ ❂ ᴛᴏᴛᴀʟ: {video_count + pdf_count + other_count}\n"
+            f"┗━ 𓍯 by : '[꧁༒☬🦋✨⚔️✮⃝mr𝕮𝖍o𝖚𝖍𝖆𝖓✮⃝🚩⚔️✨🦋☬༒꧂](tg://openmessage?user_id=8136984784)'\n"
         )
 
 
