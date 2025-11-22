@@ -406,7 +406,7 @@ def handle_txt_file(message: Message):
             f"┣━ ❂ ᴘᴅꜰ/ɴᴏᴛᴇꜱ: {pdf_count}\n"
             f"┣━ ⚝ ᴏᴛʜᴇʀ: {other_count}\n"
             f"┣━ ❂ ᴛᴏᴛᴀʟ: {video_count + pdf_count + other_count}\n"
-            f"┗━ 𓍯 by : '[꧁༒☬🦋✨⚔️✮⃝mr𝕮𝖍o𝖚𝖍𝖆𝖓✮⃝🚩⚔️✨🦋☬༒꧂](tg://openmessage?user_id=8136984784)'\n"
+            f"┗━ 𓍯 by : '[𓍯✮⃝mrचौहान✮⃝🚩⚝](tg://openmessage?user_id=8136984784)'\n"
         )
 
 
