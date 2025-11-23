@@ -389,7 +389,7 @@ def handle_txt_file(message: Message):
 
         file_base = os.path.splitext(original_file_name)[0].replace(" ", "_")
         txt_path = f"{file_base}.txt"
-        html_path = f"{file_base}.html"
+        html_path = f"𓍯चौहान🚩{file_base}.html"
 
         downloaded = bot.download_file(file_info.file_path)
         with open(txt_path, 'wb') as f:
