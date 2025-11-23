@@ -192,7 +192,7 @@ a {{ color:inherit; text-decoration:none; }}
 <button class="tab-button" onclick="showTab('other')">Other</button>
 </div>
 {html_blocks}
-<div class="footer">ᗪEᐯEᒪOᑭEᗪ ᗷY <a href="tg://openmessage?user_id=8136984784">𓍯✮⃝mr𝕮𝖍o𝖚𝖍𝖆𝖓✮⃝🚩⚝</a></div>
+<div class="footer">ᗪEᐯEᒪOᑭEᗪ ᗷY <a href="tg://openmessage?user_id=8136984784">𓍯✮⃝mrचौहान✮⃝🚩⚝</a></div>
 <script>
 let hls;
 
