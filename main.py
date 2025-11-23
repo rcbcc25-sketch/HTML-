@@ -311,7 +311,7 @@ def start_command(message):
         f"**ʜᴇʟʟᴏ {mention}**\n\n"
         f"✿ I am a **Txt To HTML Converter Bot**\n"
         "✿ Use **/html** to convert a .txt file to .html\n\n"
-        "𝐂𝐑𝐄𝐀𝐓𝐎𝐑:- [⌯ Mr Chouhan ×͜×|](tg://openmessage?user_id=8136984784)"
+        "𝐂𝐑𝐄𝐀𝐓𝐎𝐑:- [𓍯✮⃝mrचौहान✮⃝🚩⚝](tg://openmessage?user_id=8136984784)"
     )
     safe_send(
         bot.send_photo,
