@@ -265,7 +265,7 @@ def force_subscribe(func):
             is_sub = await is_subscribed(bot, message.from_user.id)
             if not is_sub:
                 keyboard = InlineKeyboardMarkup([
-                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/chaiabah")],
+                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/+DOEDdJkToU04Njk1")],
                     [InlineKeyboardButton("🔄 Refresh", callback_data="refresh_sub")]
                 ])
                 await message.reply_text(
@@ -282,7 +282,7 @@ def force_subscribe(func):
 def start_keyboard():
     keyboard = InlineKeyboardMarkup()
     keyboard.row(
-        InlineKeyboardButton("ＣＨＡＮＮＥＬ", url="https://t.me/chaiabah"),
+        InlineKeyboardButton("ＣＨＡＮＮＥＬ", url="https://t.me/+DOEDdJkToU04Njk1"),
         InlineKeyboardButton("𓍯✮⃝mr𝕮𝖍o𝖚𝖍𝖆𝖓✮⃝🚩⚝", url="tg://openmessage?user_id=8136984784")
     )
     return keyboard
