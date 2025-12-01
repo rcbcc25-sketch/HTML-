@@ -257,18 +257,6 @@ document.addEventListener("DOMContentLoaded",()=>{{ showTab('video'); }});
     return sum(len(v) for v in sections['video'].values()), \
            sum(len(v) for v in sections['pdf'].values()), \
            sum(len(v) for v in sections['other'].values())
-
-
-                await message.reply_text(
-                    f"<b>🔒 Access Denied!</b>\n\n"
-                    f"You must join our channel to use this bot.\n\n"
-                    f"👇 Click the button below to join:",
-                    reply_markup=keyboard,
-                    parse_mode=ParseMode.HTML
-                )
-                return
-        await func(bot, message)
-    return wrapper
     
 def start_keyboard():
     keyboard = InlineKeyboardMarkup()
