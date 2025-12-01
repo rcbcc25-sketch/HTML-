@@ -258,6 +258,7 @@ document.addEventListener("DOMContentLoaded",()=>{{ showTab('video'); }});
            sum(len(v) for v in sections['pdf'].values()), \
            sum(len(v) for v in sections['other'].values())
 
+
                 await message.reply_text(
                     f"<b>🔒 Access Denied!</b>\n\n"
                     f"You must join our channel to use this bot.\n\n"
