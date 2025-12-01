@@ -258,16 +258,7 @@ document.addEventListener("DOMContentLoaded",()=>{{ showTab('video'); }});
            sum(len(v) for v in sections['pdf'].values()), \
            sum(len(v) for v in sections['other'].values())
 
-# Force Subscribe Decorator
-def force_subscribe(func):
-    async def wrapper(bot, message):
-        if FORCE_SUB_CHANNEL:
-            is_sub = await is_subscribed(bot, message.from_user.id)
-            if not is_sub:
-                keyboard = InlineKeyboardMarkup([
-                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/+DOEDdJkToU04Njk1")],
-                    [InlineKeyboardButton("🔄 Refresh", callback_data="refresh_sub")]
-                ])
+
                 await message.reply_text(
                     f"<b>🔒 Access Denied!</b>\n\n"
                     f"You must join our channel to use this bot.\n\n"
@@ -282,7 +273,7 @@ def force_subscribe(func):
 def start_keyboard():
     keyboard = InlineKeyboardMarkup()
     keyboard.row(
-        InlineKeyboardButton("ＣＨＡＮＮＥＬ", url="https://t.me/+DOEDdJkToU04Njk1"),
+        InlineKeyboardButton("ＣＨＡＮＮＥＬ", url="https://t.me/+xhH4HjZavEdiODNl"),
         InlineKeyboardButton("𓍯✮⃝mr𝕮𝖍o𝖚𝖍𝖆𝖓✮⃝🚩⚝", url="tg://openmessage?user_id=8136984784")
     )
     return keyboard
@@ -324,9 +315,9 @@ def start_command(message):
 
     # 📷 Random photo send
     random_image_url = random.choice([
-        "https://sensitive-orange-2ndgmnoedd.edgeone.app/IMG_20250727_093946_936.jpg",
-        "https://sensitive-orange-2ndgmnoedd.edgeone.app/IMG_20250727_093946_936.jpg",
-        "https://sensitive-orange-2ndgmnoedd.edgeone.app/IMG_20250727_093946_936.jpg",
+        "https://ibb.co/SwgPNHgT",
+        "https://ibb.co/SwgPNHgT",
+        "https://ibb.co/SwgPNHgT",
     ])
     caption = (
         f"**ʜᴇʟʟᴏ {mention}**\n\n"
